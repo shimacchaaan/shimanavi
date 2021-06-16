@@ -52,8 +52,8 @@ label {
 
 .youtube {
   /* width="560" height="315"  20210616 昨日の学び　「youtubeの埋め込みはインラインでマークアップしている」*/
-    width:560px;
-    height:315px;
+    width:320px;
+    height:180px;
 }
 
 .yatta {
