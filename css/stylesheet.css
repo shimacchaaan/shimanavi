@@ -83,7 +83,11 @@ label {
 }
 
 .mini-name {
+  
+}
 
+.mini-name span {
+  color:red;
 }
 
 @media all and (max-width: 670px) {
