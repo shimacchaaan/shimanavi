@@ -76,7 +76,7 @@ label {
 }
 
 .kizuki-title {
-
+  font-weight:bold;
 }
 
 @media all and (max-width: 670px) {
