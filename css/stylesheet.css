@@ -79,6 +79,10 @@ label {
   font-weight:bold;
 }
 
+.mini-name {
+  
+}
+
 @media all and (max-width: 670px) {
 
   .youtube {
