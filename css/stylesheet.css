@@ -62,13 +62,34 @@ label {
     text-align:center;
     border:1px solid #d1d1d1;
     border-radius: 3px;
+    display:flex;
+}
+
+.yatta-youtube {
+    display:flex;
+    flex: auto;
+}
+
+.yatta-youtube  p iframe {
+    flex: auto;
 }
 
 @media all and (max-width: 670px) {
 
   .youtube {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
+  .yatta {
+    flex-direction:column;
+  }
+
+  .yatta-youtube {
+    flex-direction:column;
+}
+
+  /* .flex-list liにmarginを0 autoに指定してください */
+  .yatta-youtube  p iframe  {
+    margin:0 auto;
 }
