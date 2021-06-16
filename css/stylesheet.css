@@ -81,6 +81,10 @@ label {
   border-radius: 3px;
 }
 
+.yatta-youtube li {
+  font-size:13px;
+}
+
 @media all and (max-width: 670px) {
 
   .youtube {
