@@ -9,10 +9,10 @@ h1 {
 
 .content {
     background-color: #fff;
-    width: 600px;
+    width: 85%;
     margin:10px auto;
     border: 1px solid #d1d1d1;
-    padding:30px;
+    padding:50px;
 }
 
 input {
