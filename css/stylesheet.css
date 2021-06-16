@@ -58,11 +58,9 @@ label {
 
 .title {
   padding:3px;
-  width:80px;
   text-align:center;
-  border:1px solid #d1d1d1;
-  border-radius: 3px;
-  display:flex;
+  font-weight:normal;
+  border:.3px solid #d1d1d1;
   margin-bottom:0;
 }
 
@@ -75,6 +73,10 @@ label {
 
 .yatta-youtube li {
   font-size:13px;
+}
+
+.kizuki-title {
+
 }
 
 @media all and (max-width: 670px) {
