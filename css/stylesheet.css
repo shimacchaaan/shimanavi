@@ -76,6 +76,9 @@ label {
 
 .yatta-title {
   font-weight: bold;
+  background-color:#DCDCDC;
+  padding:3px;
+  border-radius: 3px;
 }
 
 @media all and (max-width: 670px) {
