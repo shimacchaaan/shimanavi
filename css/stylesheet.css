@@ -1,77 +1,81 @@
 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 h1 {
-    font-size: :24px;
-    margin:0;
+  font-size: :24px;
+  margin:0;
 }
 
 .content {
-    background-color: #fff;
-    width: 85%;
-    margin:10px auto;
-    border: 1px solid #d1d1d1;
-    padding:50px;
+  background-color: #fff;
+  width: 85%;
+  margin:10px auto;
+  border: 1px solid #d1d1d1;
+  padding:50px;
 }
 
 input {
-    border:none;
-    border-bottom: 1px solid #d1d1d1;
-    font-size: 1.2em;
-    padding: 8px;
-    width: 100%;
+  border:none;
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 1.2em;
+  padding: 8px;
+  width: 100%;
 }
 
 button {
-    width:100%;
-    background-color: #2096f3;
-    color:#fff;
-    padding: 15px;
-    border:0;
-    border-radius: 3px;
-    box-shadow:0 0 8px rgba(0, 0, 0, .4);
+  width:100%;
+  background-color: #2096f3;
+  color:#fff;
+  padding: 15px;
+  border:0;
+  border-radius: 3px;
+  box-shadow:0 0 8px rgba(0, 0, 0, .4);
 }
 
 .required {
-    color: #f33;
-    font-size: .9em;
-    padding: 3px;
-    background-color: #fee;
-    font-weight: bold;
+  color: #f33;
+  font-size: .9em;
+  padding: 3px;
+  background-color: #fee;
+  font-weight: bold;
 }
 
 body {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 label {
-    display: block;
-    margin-bottom: .5em;
+  display: block;
+  margin-bottom: .5em;
 }
 
 .youtube {
   /* width="560" height="315"  20210616 昨日の学び　「youtubeの埋め込みはインラインでマークアップしている」*/
-    width:320px;
-    height:180px;
+  width:320px;
+  height:180px;
 }
 
 .yatta h5 {
-    padding:3px;
-    width:80px;
-    text-align:center;
-    border:1px solid #d1d1d1;
-    border-radius: 3px;
-    display:flex;
+  padding:3px;
+  width:80px;
+  text-align:center;
+  border:1px solid #d1d1d1;
+  border-radius: 3px;
+  display:flex;
 }
 
 .yatta-youtube {
-    display:flex;
-    flex: auto;
+  display:flex;
+  flex: auto;
 }
 
 .yatta-youtube  p iframe {
-    flex: auto;
+  flex: auto;
+}
+
+.yatta-title {
+  font-weight: bold;
 }
 
 @media all and (max-width: 670px) {
@@ -79,7 +83,7 @@ label {
   .youtube {
     width: 100%;
     height: 100%;
-}
+  }
 
   .yatta {
     flex-direction:column;
@@ -87,9 +91,9 @@ label {
 
   .yatta-youtube {
     flex-direction:column;
-}
+  }
 
   /* .flex-list liにmarginを0 autoに指定してください */
   .yatta-youtube  p iframe  {
     margin:0 auto;
-}
+  }
