@@ -64,11 +64,11 @@ label {
     border-radius: 3px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 670px) {
 
   .youtube {
   width: 100%;
   height: 100%;
 }
-  
+
 }
