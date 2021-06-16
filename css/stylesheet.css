@@ -58,9 +58,12 @@ label {
 
 .title {
   padding:3px;
-  text-align:center;
+  font-size:13px;
+  text-align:left;
   font-weight:normal;
-  border:.3px solid #d1d1d1;
+  font-family:"YuGothic";
+  color:#484747;
+  border-top:.3px solid #e8e8e8;
   margin-bottom:0;
 }
 
@@ -80,7 +83,7 @@ label {
 }
 
 .mini-name {
-  
+
 }
 
 @media all and (max-width: 670px) {
