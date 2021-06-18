@@ -74,6 +74,10 @@ label {
   border-radius: 3px;
 }
 
+ol {
+  list-style: inside;
+}
+
 li {
   font-size:13px;
 }
