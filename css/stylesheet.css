@@ -98,6 +98,11 @@ li {
   color:red;
 }
 
+.simpleicons {
+  width:50px;
+  height:auto;
+}
+
 @media all and (max-width: 670px) {
 
   .youtube {
