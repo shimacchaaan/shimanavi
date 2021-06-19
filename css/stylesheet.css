@@ -99,7 +99,8 @@ li {
 }
 
 .comment img {
-  
+  width:20px;
+  height:auto;
 }
 
 @media all and (max-width: 670px) {
