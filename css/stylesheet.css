@@ -103,7 +103,7 @@ li {
   height:auto;
 }
 
-/* codeの説明 <dl></dl> をする際のcss */
+/* codeの説明 <dl></dl> をする際のcss　<dl>は説明をするタグ */
 .code {
   background-color:rgb(40,44,51) ;
   color:rgb(189,189,189);
