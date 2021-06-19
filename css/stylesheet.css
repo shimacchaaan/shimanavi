@@ -103,6 +103,13 @@ li {
   height:auto;
 }
 
+/* codeの説明 <dl></dl> をする際のcss */
+.code {
+  background-color:rgb(40,44,51) ;
+}
+
+
+
 @media all and (max-width: 670px) {
 
   .youtube {
