@@ -106,7 +106,13 @@ li {
 /* codeの説明 <dl></dl> をする際のcss */
 .code {
   background-color:rgb(40,44,51) ;
+  color:rgb(189,189,189);
 }
+
+.youso {
+  color:rgb(228,107,118);
+}
+
 
 
 
