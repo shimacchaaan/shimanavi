@@ -1,3 +1,5 @@
+@import url(sanitize.css);
+
 p {
   font-size: 14px;
 }
@@ -123,6 +125,10 @@ li {
 
 .link {
   color:rgb(77,183,193);
+}
+
+.import {
+  color:rgb(201,122,215);
 }
 
 /* Folderの中身のディレクトリを表現 */
