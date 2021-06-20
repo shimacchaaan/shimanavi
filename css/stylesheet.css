@@ -106,7 +106,13 @@ li {
 }
 /* dlの上の部分を詰める。 */
 dl {
-  margin-top:0.2em;
+  margin-top:0em;
+  margin-bottom:0em;
+}
+
+dl p {
+  margin-top:0em;
+  margin-bottom:0em;
 }
 
 /* codeの説明 <dl></dl> をする際のcss　<dl>は説明をするタグ */
