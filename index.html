@@ -176,6 +176,7 @@
                       <p>すべての HTML 要素は1つ以上のコンテンツカテゴリーに属していて、
                         <br>カテゴリーごとに共通した特徴を持つ要素を分類している。</p>
                         <p>つまり、Sectionning content はコンテンツカテゴリーの一種</p>
+                        <!-- MND 参照 -->
                         <img src="img/mdn.svg" alt="#">
                         <a href="https://developer.mozilla.org/ja/docs/Web/Guide/HTML/Content_categories" target="_blank">MND Web Docs ：コンテンツカテゴリー</a>
                       <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="shimacchaaan" data-slug-hash="KKWEZYP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="KKWEZYP">
@@ -299,18 +300,26 @@
                             <dl class="code">&#160;<span class="zokusei">display</span>:inline-block;</dl>
                         </div>
 
-
                         <div class="comment">
                           <p><b>cssのプロパティを指定後、<br>複数の要素に適応されてしまう場合。</b><br></p>
                             <dl class="code">&#160;<span class="youso">header&#160;h1</span>{&#160;}&#160;</dl>
                             <ol>
                               <li><b>子孫結合子</b>...親子関係で指定する<br>階層構造のセレクタ<br>補足：cssのプロパティの値には 親の要素を受け継ぐ
 inherit インヘリット がある。</li>
-                              <li></li>
-                              <li></li>
+                              <li>タグにclass属性を付加して、個別化をする。</li>
                             </ol>
                         </div>
 
+                        <div class="comment">
+                          <p><b>プロパティ「float」「clear」<br></p>
+                            <dl class="code">&#160;float:&#160;left&#160;<br>(プロパティ)画像を浮かせ:(値)左に寄せる;<br>&#160;clear:&#160;left{&#160;}&#160; <br>(プロパティ)回り込み解除:(値)左への;</dl>
+
+                          <p><b>「display」でインライン要素に変える<br></p>
+                            <dl class="code">&#160;display:&#160;inline&#160;<br>(プロパティ)画像を浮かせ:(値)左に寄せる;<br>&#160;clear:&#160;left{&#160;}&#160; <br>(プロパティ)回り込み解除:(値)左への;</dl>
+                            <!-- MND 参照 -->
+                            <img src="img/mdn.svg" alt="#">
+                            <a href="https://developer.mozilla.org/ja/docs/Web/CSS/display" target="_blank">MND Web Docs ：display</a>
+                        </div>
 
 
 
