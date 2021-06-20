@@ -125,8 +125,19 @@ li {
   color:rgb(77,183,193);
 }
 
+/* Folderの中身のディレクトリを表現 */
+.folder {
+  background-color:rgb(37,37,38);
+  color:white;
+}
 
+.f-html {
+  color:rgb(209,119,34);
+}
 
+.f-css {
+  color:rgb(95,153,189);
+}
 
 @media all and (max-width: 670px) {
 
