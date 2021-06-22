@@ -5,6 +5,10 @@ p {
   font-weight:normal ;
 }
 
+header {
+  background-color:#d1d1d1;
+}
+
 .content h1 {
   font-size:1.5em;
   text-align:center;
