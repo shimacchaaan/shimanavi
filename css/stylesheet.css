@@ -106,17 +106,6 @@ li {
   width:20px;
   height:auto;
 }
-/* dlの上の部分を詰める。 */
-dl {
-  margin-top:0em;
-  margin-bottom:0em;
-  font-size:0.8em;
-}
-
-dl p {
-  margin-bottom:0em;
-  font-size:0.8em;
-}
 
 /* codeの説明 <dl></dl> をする際のcss　<dl>は説明をするタグ */
 .code {
