@@ -69,6 +69,7 @@ label {
   /* width="560" height="315"  20210616 昨日の学び　「youtubeの埋め込みはインラインでマークアップしている」*/
   width:320px;
   height:180px;
+  text-align:center;
 }
 
 .title {
