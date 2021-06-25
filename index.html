@@ -222,7 +222,7 @@
               <p><b>alt オルタナティブ</b><br>意味:代わり
               <br>アクセシビリティ(Accessibility)を高めるため、説明する代替文字列を定義する属性。音声読み上げアプリなどに対応させたり、画像が無効の場合やユーザーが画像を無効にしているときに指定する。</p>
             </dl>
-
+          </div>
             <p class="kizuki-title">空要素</p>
             <div class="comment">
               <p>&#60;br&#62;や&#60;img&#62;のように&#60;/&#62;がない、内容を持たない要素のことをいう。</p>
@@ -269,69 +269,72 @@
             <div class="comment">
               <p><b>インライン要素</b><br>改行されない要素。width,heigthが指定できない。margin,paddingは左右のみ指定できる。<br>代表タグ：&#60;span&#62;,&#60;a&#62;</p>
             </div>
-                                  <div class="comment">
-                                    <p><b>インラインブロック要素</b><br>改行されない要素。width,heigth,margin,paddingが指定可能。cssで以下のように指定できる。</p>
-                                    <!-- 実態参照  &#60; <　&#62; >　&#160; (半角スペース)　-->
-                                    <dl class="code">&#160;<span class="zokusei">display</span>:inline-block;</dl>
-                                  </div>
 
-                                  <div class="comment">
-                                    <p><b>cssのプロパティを指定後、<br>複数の要素に適応されてしまう場合。</b><br></p>
-                                    <dl class="code">&#160;<span class="youso">header&#160;h1</span>{&#160;}&#160;</dl>
-                                    <ol>
-                                      <li><b>子孫結合子</b>...親子関係で指定する<br>階層構造のセレクタ<br><ruby><rb>inherit</rb><rp>(</rp><rt>インヘリット</rt><rp></rp></ruby>：親の要素を受け継ぐプロパティ</li>
-                                      <li>タグにclass属性を付加する。</li>
-                                    </ol>
-                                  </div>
-                                  <div class="comment">
-                                    <p class="kizuki-title">プロパティ「float」「clear」</p>
-                                    <dl class="code"><p>&#160;float:&#160;left&#160;;<br>(プロパティ)画像を浮かせ:(値)左に寄せる;</p><p>&#160;clear:&#160;left ;<br>(プロパティ)回り込み解除:(値)左への;</p></dl>
-                                  </div>
-                                  <div class="comment">
-                                    <p class="kizuki-title">「display」でインライン要素に変える</p>
-                                    <dl class="code"><p>&#160;display:&#160;inline&#160;;</p></dl>
-                                    <!-- MND 参照 -->
-                                    <img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/display" target="_blank">MND Web Docs ：display</a>
-                                  </div>
+            <div class="comment">
+              <p><b>インラインブロック要素</b><br>改行されない要素。width,heigth,margin,paddingが指定可能。cssで以下のように指定できる。</p>
+<!-- 実態参照  &#60; <　&#62; >　&#160; (半角スペース)　-->
+              <dl class="code">&#160;<span class="zokusei">display</span>:inline-block;</dl>
+            </div>
 
-                                  <div class="comment">
-                                    <p class="kizuki-title">fontフォントの字体を変える</p>
-                                    <dl class="code"><p>&#160;font-family:&#160;selif&#160;;</p></dl>
-                                    <p class="kizuki-title">ウェブフォント</p>
-                                    <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-                                    <p>長文はサイトが重くなるから、文字数が少ないタイトルに使うと良い。</p>
-                                  </div>
-                                  <div class="comment">
-                                    <p class="kizuki-title">アニメーション transition</p>
-                                    <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="shimacchaaan" data-slug-hash="YzZbEzJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="YzZbEzJ">
-                                      <span>See the Pen <a href="https://codepen.io/shimacchaaan/pen/YzZbEzJ">
-                                        YzZbEzJ</a> by shimacchaaan (<a href="https://codepen.io/shimacchaaan">@shimacchaaan</a>)
-                                        on <a href="https://codepen.io">CodePen</a>.</span>
-                                      </p>
-                                      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-                                    </div>
-                                    <div class="comment">
-                                      <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/::after">::after (:after)</a></p>
-                                      <p>CSS において選択した要素の最後の子要素として<b><a href="https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-elements">擬似要素</a></b>を作成。よく<a href="https://developer.mozilla.org/ja/docs/Web/CSS/content">content</a>プロパティを使用して、
-                                        要素に装飾的な内容を追加るために用いられる。この要素は既定でインライン。</p>
-                                      </div>
-                                      <div class="comment">
-                                        <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/clear">clear</a></p>
-                                        <p>要素が先行する浮動要素の下に移動(clear)する必要があるかどうかを設定する。</p>
-                                      </div>
+            <div class="comment">
+              <p><b>cssのプロパティを指定後、<br>複数の要素に適応されてしまう場合。</b><br></p>
+              <dl class="code">&#160;<span class="youso">header&#160;h1</span>{&#160;}&#160;</dl>
+              <ol>
+                <li><b>子孫結合子</b>...親子関係で指定する<br>階層構造のセレクタ<br><ruby><rb>inherit</rb><rp>(</rp><rt>インヘリット</rt><rp></rp></ruby>：親の要素を受け継ぐプロパティ</li>
+                <li>タグにclass属性を付加する。</li>
+              </ol>
+            </div>
 
-                                      <div class="comment">
-                                        <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/table">&#60;table&#62;</a>: 表要素 <br>&#60;table&#62;要素と同じように動作をさせる <dl class="code"><p>&#160;display : table&#160;;</p></dl></p>
-                                      </div>
-                                      <div class="comment">
-                                        <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/@media">&#60;@media&#62;</a>:<a href="https://developer.mozilla.org/ja/docs/Web/CSS/At-rule">@-規則</a></p>
-                                        <dl class="code"><p>&#64;<span class="import">media</span>&#160;<span class="zokusei">all</span>&#160;<span class="import">and</span>&#160;( max-width:<span class="zokusei">670px</span> ) { }</p></dl>
-                                        <p>メモ：max-width:値のあと、セミコロンは不要！<br>コンテンツに対して、[max-width:値;]を付加する方法もあるので併せて覚えよう。</p>
-                                        <img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/Media_Queries/Using_media_queries">メディアクエリの利用</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </section>
+            <div class="comment">
+              <p class="kizuki-title">プロパティ「float」「clear」</p>
+              <dl class="code"><p>&#160;float:&#160;left&#160;;<br>(プロパティ)画像を浮かせ:(値)左に寄せる;</p><p>&#160;clear:&#160;left ;<br>(プロパティ)回り込み解除:(値)左への;</p></dl>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title">「display」でインライン要素に変える</p>
+              <dl class="code"><p>&#160;display:&#160;inline&#160;;</p></dl>
+  <!-- MND 参照 -->
+              <img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/display" target="_blank">MND Web Docs ：display</a>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title">fontフォントの字体を変える</p>
+              <dl class="code"><p>&#160;font-family:&#160;selif&#160;;</p></dl>
+              <p class="kizuki-title">ウェブフォント</p>
+              <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+              <p>長文はサイトが重くなるから、文字数が少ないタイトルに使うと良い。</p>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title">アニメーション transition</p>
+              <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="shimacchaaan" data-slug-hash="YzZbEzJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="YzZbEzJ">
+              <span>See the Pen <a href="https://codepen.io/shimacchaaan/pen/YzZbEzJ">YzZbEzJ</a> by shimacchaaan (<a href="https://codepen.io/shimacchaaan">@shimacchaaan</a>)on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/::after">::after (:after)</a></p>
+              <p>CSS において選択した要素の最後の子要素として<b><a href="https://developer.mozilla.org/ja/docs/Web/CSS/Pseudo-elements">擬似要素</a></b>を作成。よく<a href="https://developer.mozilla.org/ja/docs/Web/CSS/content">content</a>プロパティを使用して、要素に装飾的な内容を追加るために用いられる。この要素は既定でインライン。</p>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/clear">clear</a></p>
+              <p>要素が先行する浮動要素の下に移動(clear)する必要があるかどうかを設定する。</p>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/table">&#60;table&#62;</a>: 表要素 <br>&#60;table&#62;要素と同じように動作をさせる <dl class="code"><p>&#160;display : table&#160;;</p></dl></p>
+            </div>
+
+            <div class="comment">
+              <p class="kizuki-title"><img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/@media">&#60;@media&#62;</a>:<a href="https://developer.mozilla.org/ja/docs/Web/CSS/At-rule">@-規則</a></p>
+              <dl class="code"><p>&#64;<span class="import">media</span>&#160;<span class="zokusei">all</span>&#160;<span class="import">and</span>&#160;( max-width:<span class="zokusei">670px</span> ) { }</p></dl><p>メモ：max-width:値のあと、セミコロンは不要！<br>コンテンツに対して、[max-width:値;]を付加する方法もあるので併せて覚えよう。</p>
+              <img src="img/mdn.svg" alt="#"><a href="https://developer.mozilla.org/ja/docs/Web/CSS/Media_Queries/Using_media_queries">メディアクエリの利用</a>
+            </div>
+          </div>
+        </div>
+        </section>
 
                                 <!-- 20210618 output -->
                                 <section class="daily-report">
