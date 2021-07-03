@@ -13,22 +13,26 @@ header {
   z-index: 10;
 }
 
-.content {
-  position:center;
-}
-
 .content h1 {
   font-size:1.5em;
   margin:0;
+  display:inline-block;
 }
 
 .content p {
   display:inline-block;
+  margin:0;
 }
 
 .monthBtn {
-  display:block;
+  display:inline-block;
 }
+
+.june {
+  font-size:.1em;
+}
+
+
 
 .daily-report {
   background-color: #fff;
