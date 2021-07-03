@@ -5,6 +5,7 @@ p {
   font-weight:normal ;
 }
 
+/* ヘッダーの値 content monthBtn  */
 header {
   background-color:rgba(209,209,209,0.7);
   width:100%;
@@ -28,10 +29,9 @@ header {
   display:inline-block;
 }
 
-.june {
+.btn-june {
   font-size:.1em;
 }
-
 
 
 .daily-report {
