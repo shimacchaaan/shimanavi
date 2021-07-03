@@ -1,7 +1,7 @@
 $(function() {
   // アコーディオン化する
   $('#btn-june').click(function() {
-    var $june = $(this).find('.june');
+    var $june = $('.june');
     if($june.hasClass('open')) {
       $june.removeClass('open');
       // slideUpメソッドを用いて、$answerを隠してください
