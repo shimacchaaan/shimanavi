@@ -36,6 +36,15 @@ header {
   margin-bottom:0.5em;
 }
 
+/* 20210703現在　6月を非表示 */
+.june {
+  padding-top:2em;
+  display:none;
+}
+
+.july {
+  padding-top:2em;
+}
 
 .daily-report {
   background-color: #fff;
@@ -43,6 +52,7 @@ header {
   border: 1px solid #d1d1d1;
   padding:15px;
 }
+
 
 input {
   border:none;
