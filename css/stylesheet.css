@@ -13,17 +13,21 @@ header {
   z-index: 10;
 }
 
+.content {
+  position:center;
+}
+
 .content h1 {
   font-size:1.5em;
-  text-align:center;
   margin:0;
 }
 
 .content p {
-  font-size:0.7em;
-  text-weight:normal;
-  text-align:center;
-  margin:0;
+  display:inline-block;
+}
+
+.monthBtn {
+  display:block;
 }
 
 .daily-report {
