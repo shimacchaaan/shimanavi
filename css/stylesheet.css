@@ -27,10 +27,12 @@ header {
 
 .monthBtn {
   display:inline-block;
+  padding-left:1em;
+  margin-bottom:;
 }
 
 .btn-june {
-  font-size:.1em;
+  margin-bottom:0.5em;
 }
 
 
