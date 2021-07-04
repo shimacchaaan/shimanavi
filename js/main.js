@@ -7,7 +7,7 @@ $(function() {
       $('.june').fadeIn();
 
       // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
-      $(this).find('span').text('+');
+      $(this).find('span').text('-');
 
     } else {
       $('.june').addClass('open');
@@ -15,7 +15,7 @@ $(function() {
       $('.june').fadeOut();
 
       // 子要素のspanタグの中身をtextメソッドを用いて書き換えてください
-      $(this).find('span').text('-');
+      $(this).find('span').text('+');
 
     }
   });

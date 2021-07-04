@@ -39,6 +39,7 @@ header {
 /* 20210703現在　6月を非表示 */
 .june {
   padding-top:5.5em;
+  display:none;
 }
 
 .july {
